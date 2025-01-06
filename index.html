@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tributo a ABBA - Candlelight</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+            color: #fff;
+            background: url('https://estaticos-cdn.prensaiberica.es/clip/0c19c38c-aabb-4200-8cb3-24990cf6323f_16-9-discover-aspect-ratio_default_0.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+
+        h1, p, .cta, footer {
+            position: relative;
+            z-index: 2;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #ffd700;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+
+        .cta {
+            margin-top: 2rem;
+        }
+
+        .cta a {
+            text-decoration: none;
+            color: #121212;
+            background-color: #ffd700;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta a:hover {
+            background-color: #ffc107;
+        }
+
+        footer {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tributo a ABBA</h1>
+    <p>Una experiencia inolvidable bajo la cálida luz de las velas.</p>
+    <p><strong>Fecha:</strong> 16 de febrero</p>
+    <p><strong>Hora:</strong> 21:00</p>
+    <p><strong>Lugar:</strong> Hotel Bahía Santander</p>
+
+    <div class="cta">
+        <a href="https://feverup.com/m/268971" target="_blank">Ver Detalles</a>
+    </div>
+
+    <footer>
+        <p>Espero que os guste, os quiero mucho :)</p>
+    </footer>
+</body>
+</html>
